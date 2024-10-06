@@ -1,3 +1,26 @@
+
+--//====================================================\\--
+--||                     NEUROTIC
+--|| Q Sprint
+--|| F Shotgun
+--|| X Grenade
+--|| C Melee
+--|| Z Throw Gun
+--|| T/Y Taunt
+--\\====================================================//--
+Configuration = {}
+Configuration.ReturnOnDeath = true
+Configuration.Flinging = true
+Configuration.PresetFling = false
+Configuration.Animations = false
+Configuration.WaitTime = 0.23
+Configuration.RigName = "FakeRig"
+Configuration.TeleportOffsetRadius = 40
+Configuration.NoCollisions = true
+Configuration.AntiVoiding = true
+Configuration.SetSimulationRadius = false
+Configuration.DisableCharacterScripts = true
+Configuration.Hats = nil
 local Module = game:HttpGet("https://raw.githubusercontent.com/ticklish-dev/Krypton/refs/heads/main/Module.luau")
 loadstring(Module)()
 
