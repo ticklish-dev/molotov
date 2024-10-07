@@ -733,7 +733,7 @@ wed = CreateParta(mw2,0,0,"Neon",halocolor)
 CreateMesh(wed,"Wedge",0.05,0.5,0.5)
 CreateWeld(wed,rwing1,wed,0,0,0.25,math.rad(0),math.rad(90),math.rad(0),0,0,0,math.rad(0),math.rad(0),math.rad(0))
 
-local s1 = realchr:FindFirstChild("VoidLordSword")
+local s1 = realchr:FindFirstChild("MeshPartAccessory")
 local h1 = api.GetHatInformation(s1)
 api.SetHatAlign(h1,wed,CFrame.new(0,0,0) * CFrame.Angles(math.rad(35),math.rad(0),math.rad(0)))
 
@@ -766,7 +766,7 @@ wed = CreateParta(mw2,0,0,"Neon",halocolor)
 CreateMesh(wed,"Wedge",0.05,0.5,0.5)
 CreateWeld(wed,rwing2,wed,0,0,0.25,math.rad(0),math.rad(90),math.rad(0),0,0,0,math.rad(0),math.rad(0),math.rad(0))
 
-local s2 = realchr:FindFirstChild("AuroraSword")
+local s2 = realchr:FindFirstChild("MeshPartAccessory")
 local h2 = api.GetHatInformation(s2)
 api.SetHatAlign(h2,wed,CFrame.new(0,0,-1.5) * CFrame.Angles(math.rad(35),math.rad(0),math.rad(0)))
 
@@ -800,7 +800,7 @@ wed = CreateParta(mw2,0,0,"Neon",halocolor)
 CreateMesh(wed,"Wedge",0.05,0.5,0.5)
 CreateWeld(wed,rwing3,wed,0,0,0.25,math.rad(0),math.rad(90),math.rad(0),0,0,0,math.rad(0),math.rad(0),math.rad(0))
 
-local s3 = realchr:FindFirstChild("RainbowGodSword")
+local s3 = realchr:FindFirstChild("MeshPartAccessory")
 local h3 = api.GetHatInformation(s3)
 api.SetHatAlign(h3,wed,CFrame.new(0,0,-3) * CFrame.Angles(math.rad(35),math.rad(0),math.rad(0)))
 
